@@ -13,9 +13,6 @@
 #
 # Source: <https://github.com/LuqueDaniel/MySQLCharsetConverter>
 
-__version__ = "0.1"
-
-
 from __future__ import print_function
 
 #MySQLdb import
@@ -24,6 +21,8 @@ import MySQLdb
 from re import match
 from re import IGNORECASE
 from re import sub
+
+__version__ = "0.1"
 
 #SQL config
 db_host = ''  # Host address and port
