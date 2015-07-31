@@ -26,10 +26,10 @@ from re import IGNORECASE
 from re import sub
 
 #SQL config
-db_host = 'localhost'  # Host address and port
-db_user = 'root'  # Database username
-db_password = 'root'  # User password
-db_name = 'wordpress2'  # Database name
+db_host = ''  # Host address and port
+db_user = ''  # Database username
+db_password = ''  # User password
+db_name = ''  # Database name
 #from_charset = 'latin1'  # Current database character set
 from_collation = 'latin1_swedish_ci'  # Current database collation
 to_charset = 'utf8'  # Future database character set
